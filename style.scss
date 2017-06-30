@@ -1,0 +1,81 @@
+body{
+  background-color: white;
+  font-family: "Helvetica", serif;
+  font-size: 14px;
+}
+
+#second{
+  clear: both;
+  background-color: gainsboro;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#first{
+  text-align: left;
+  background-color: gainsboro;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+.form-group {
+  //overflow: hidden;
+  margin-bottom: 4px;
+  font-weight: bold;
+
+
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .form-label,
+  .form-control {
+    float: left;
+  }
+
+  .form-label {
+    width: 40%;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 2px;
+  }
+
+  .form-control {
+    width: 60%;
+  }
+}
+
+//pavyzys
+//#submitb{
+//  border-radius: 10px;
+//  //border: 1px solid black;
+//  overflow: hidden;
+//}
+
+#submit_button{
+  border-radius: 10px;
+  margin-left: 250px;
+}
+
+#gobutton{
+  border-radius: 10px;
+}
+
+label{
+  font-weight: bold;
+
+}
+
+#search{
+  border-radius: 15px;
+  
+}
+

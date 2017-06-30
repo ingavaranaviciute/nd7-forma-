@@ -3,8 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <title>nd7(forma)</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
+  <div id="container">
+
+
+<div id="first">
+
+<form action="/action_page.php">
+
+    <div class="form-group">
+        <div class="form-label">Title</div>
+        <div class="form-control">
+            <input type="text" name="title" placeholder="Select one of enter yor own" required>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <div class="form-label">Name</div>
+        <div class="form-control">
+            <input type="text" name="name" placeholder="John Doe" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="form-label">Phone number</div>
+        <div class="form-control">
+            <input type="tel" name="telnumer" placeholder="+1 23456789">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="form-label">Email address</div>
+        <div class="form-control">
+            <input type="email" name="email" placeholder="add@sdood" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="form-label">Your website</div>
+        <div class="form-control">
+            <input type="url" name="url" placeholder="www.yoursite.com">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="form-label">Nr. of items to order</div>
+        <div class="form-control">
+            <input type="number" name="Quantity" min="1" max="10" step="1" placeholder="6" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="form-label">Lenght</div>
+        <div class="form-control">
+            <input type="range" name="Lenght" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="form-label">Delivery date</div>
+        <div class="form-control">
+            <input type="date" name="deliverydate" min="2010-12-16" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="form-label">Time of delivery</div>
+        <div class="form-control">
+            <input type="time" name="deliverytime" step="1800" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="form-label">Color of the item</div>
+        <div class="form-control">
+            <input type="color" name="color" value="#ed1c24" required>
+        </div>
+    </div>
+
+<div>
+    <input type="submit" value="Submit" id="submit_button">
+</div>
+
+</form>
+</div>
+
+
+
+<div id="second">
+
+    <form action="/action_page.php">
+    <div class="form-group">
+        <div class="form-label">Search</div>
+        <div class="form-control">
+            <input type="search" name="search" id="search">
+            <input type="submit" value="Go" id="gobutton">
+        </div>
+    </div>
+    </form>
+</div>
+
+
+</div>
+
 
 </body>
 </html>
