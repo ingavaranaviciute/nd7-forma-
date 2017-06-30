@@ -13,7 +13,7 @@
 
 <div id="first">
 
-<form action="/action_page.php">
+<form>
 
     <div class="form-group">
         <div class="form-label">Title</div>
@@ -23,10 +23,19 @@
     </div>
 
 
+    <!--<label>
+        <span class="form-label">Musu labelis</span>
+        <span class="form-control">
+            <input placeholder="testuojam sita">
+        </span>
+    </label>-->
+
     <div class="form-group">
-        <div class="form-label">Name</div>
+        <div class="form-label">
+            <label for="name">Name</label>
+        </div>
         <div class="form-control">
-            <input type="text" name="name" placeholder="John Doe" required>
+            <input type="text" name="name" placeholder="John Doe" required id="name">
         </div>
     </div>
 
@@ -59,9 +68,11 @@
     </div>
 
     <div class="form-group">
-        <div class="form-label">Lenght</div>
+        <div class="form-label">
+            <label for="length">Length</label>
+        </div>
         <div class="form-control">
-            <input type="range" name="Lenght" required>
+            <input type="range" name="Lenght" required id="length">
         </div>
     </div>
 
@@ -97,12 +108,13 @@
 
 <div id="second">
 
-    <form action="/action_page.php">
+    <form >
     <div class="form-group">
         <div class="form-label">Search</div>
         <div class="form-control">
             <input type="search" name="search" id="search">
-            <input type="submit" value="Go" id="gobutton">
+            <input type="submit" value="Go">
+            <!--<button>Reset</button>-->
         </div>
     </div>
     </form>
